@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="referrer" content="never">
+<title>Miss Monique - MiMo Weekly Podcast 030</title>
+</head>
+<div id="playervideo" class="portfolio-slideshow flexslider animate-onscroll">        
+                        <!-- Video player -->   
+                        <!--poster is 缩略图-->   
+                        <center>   
+                        <video id="example_video_1" class="video-js vjs-default-skin" 
+controls preload="none" poster="https://ae01.alicdn.com/kf/H993553a98f0c47c0ae2424217d739d00E.jpg" data-setup="{}" width="95%">   
+                            <source src="a.mp4" type='video/mp4' />   
+                        </video>  
+                        </center>  
+                        <script language="javascript">   
+                        var vList = [
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646941398960-3w3fgmcugjw.mp4',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646941471570-sw3jqjqhrd.mp4?ver=160-pro',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646941540005-b235y4dpoy.mp4?ver=160-pro',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646941605051-r3u5z5hbine.mp4?ver=160-pro',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646941670031-fdk5djvriu4.mp4?ver=160-pro',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646941729711-ebhhom1kk6k.mp4?ver=160-pro',
+
+			]; // 初始化播放列表   
+                        var vLen = vList.length; // 播放列表的长度   
+                        var curr = 0; // 当前播放的视频   
+                           
+                        var video = document.getElementById("example_video_1");   
+                           
+                        /*var video = document.createElement("VIDEO");  
+                        video.setAttribute("width", "100%");  
+                        video.setAttribute("height", "500");  
+                        video.setAttribute("id", "exaample_video_1");  
+                        video.setAttribute("class", "video-js vjs-default-skin");  
+                        video.setAttribute("preload", "none");  
+                        video.setAttribute("poster", "video//demo.jpg");  
+                        video.setAttribute("data-setup", "{}");  
+                        video.setAttribute("controls", "yes");  
+                        document.getElementById("playervideo").appendChild(video);*/   
+                        //document.body.appendChild(video);   
+   
+                        video.addEventListener('ended', play);   
+                        play();   
+                        function play(e) {   
+                            video.src = vList[curr];   
+                            video.load();    
+                            video.play();   
+                            curr++;   
+  
+                        }   
+                        </script>   
+                        <!-- /Video player -->   
+                            </div>   
