@@ -1,0 +1,45 @@
+    <meta name="referrer" content="never">
+<div id="playervideo" class="portfolio-slideshow flexslider animate-onscroll">   
+       
+                        <!-- Video player -->   
+                        <!--poster is 缩略图-->   
+                        <center>   
+                        <video id="example_video_1" class="video-js vjs-default-skin" 
+controls preload="none" poster="https://ae01.alicdn.com/kf/H993553a98f0c47c0ae2424217d739d00E.jpg" data-setup="{}" width="95%">   
+                            <source src="http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1640002239920-w04j7zngs2a.mp4" type='video/mp4' />   
+                        </video>  
+                        </center>  
+                        <script language="javascript">   
+                        var vList = ['http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646933207590-f37vhodjgyl.mp4',
+						'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646933279424-sidqqbev5e.mp4',
+						'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646933347133-1kuz4kyzo4x.mp4']; // 初始化播放列表   
+                        var vLen = vList.length; // 播放列表的长度   
+                        var curr = 0; // 当前播放的视频   
+                           
+                        var video = document.getElementById("example_video_1");   
+                           
+                        /*var video = document.createElement("VIDEO");  
+                        video.setAttribute("width", "100%");  
+                        video.setAttribute("height", "500");  
+                        video.setAttribute("id", "exaample_video_1");  
+                        video.setAttribute("class", "video-js vjs-default-skin");  
+                        video.setAttribute("preload", "none");  
+                        video.setAttribute("poster", "video//demo.jpg");  
+                        video.setAttribute("data-setup", "{}");  
+                        video.setAttribute("controls", "yes");  
+                        document.getElementById("playervideo").appendChild(video);*/   
+                        //document.body.appendChild(video);   
+   
+                        video.addEventListener('ended', play);   
+                        play();   
+                        function play(e) {   
+                            video.src = vList[curr];   
+                            video.load();    
+                            video.play();   
+                            curr++;   
+  
+                           
+                        }   
+                        </script>   
+                        <!-- /Video player -->   
+                            </div>   
