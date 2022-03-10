@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="referrer" content="never">
+<title>特送</title>
+</head>
+<div id="playervideo" class="portfolio-slideshow flexslider animate-onscroll">        
+                        <!-- Video player -->   
+                        <!--poster is 缩略图-->   
+                        <center>   
+                        <video id="example_video_1" class="video-js vjs-default-skin" 
+controls preload="none" poster="https://ae01.alicdn.com/kf/H993553a98f0c47c0ae2424217d739d00E.jpg" data-setup="{}" width="95%">   
+                            <source src="a.mp4" type='video/mp4' />   
+                        </video>  
+                        </center>  
+                        <script language="javascript">   
+                        var vList = [
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646935259398-o2anif8uo2.mp4',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646935376506-4re9fb7286n.mp4',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646935443789-xd424vqhlkb.mp4',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646935516058-pppbgiofma.mp4',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646935590185-jq0qchzzvcf.mp4',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646935658924-j17pcs3g1k.mp4',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646937461180-6nsfqgmytfi.mp4',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646937529594-e5d1t66291a.mp4',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646937595938-uao6cv5jukq.mp4',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646937662829-po372w6xeh.mp4'
+			]; // 初始化播放列表   
+                        var vLen = vList.length; // 播放列表的长度   
+                        var curr = 0; // 当前播放的视频   
+                           
+                        var video = document.getElementById("example_video_1");   
+                           
+                        /*var video = document.createElement("VIDEO");  
+                        video.setAttribute("width", "100%");  
+                        video.setAttribute("height", "500");  
+                        video.setAttribute("id", "exaample_video_1");  
+                        video.setAttribute("class", "video-js vjs-default-skin");  
+                        video.setAttribute("preload", "none");  
+                        video.setAttribute("poster", "video//demo.jpg");  
+                        video.setAttribute("data-setup", "{}");  
+                        video.setAttribute("controls", "yes");  
+                        document.getElementById("playervideo").appendChild(video);*/   
+                        //document.body.appendChild(video);   
+   
+                        video.addEventListener('ended', play);   
+                        play();   
+                        function play(e) {   
+                            video.src = vList[curr];   
+                            video.load();    
+                            video.play();   
+                            curr++;   
+  
+                        }   
+                        </script>   
+                        <!-- /Video player -->   
+                            </div>   
