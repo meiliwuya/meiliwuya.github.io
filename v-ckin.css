@@ -6,8 +6,8 @@
 */
 @font-face {
   font-family: 'ckin';
-  src: url("../fonts/ckin.eot-g02cfx")/*tpa=ckin.eot?g02cfx*/;
-  src: url("../fonts/ckin.eot-g02cfx#iefix")/*tpa=ckin.eot?g02cfx#iefix*/ format("embedded-opentype"), url("ckin.ttf-g02cfx")/*tpa=ckin.ttf?g02cfx*/ format("truetype"), url("ckin.woff-g02cfx")/*tpa=ckin.woff?g02cfx*/ format("woff"), url("ckin.svg-g02cfx#ckin")/*tpa=ckin.svg?g02cfx#ckin*/ format("svg");
+  src: url("ckin.eot-g02cfx")/*tpa=ckin.eot?g02cfx*/;
+  src: url("ckin.eot-g02cfx#iefix")/*tpa=ckin.eot?g02cfx#iefix*/ format("embedded-opentype"), url("ckin.ttf-g02cfx")/*tpa=ckin.ttf?g02cfx*/ format("truetype"), url("ckin.woff-g02cfx")/*tpa=ckin.woff?g02cfx*/ format("woff"), url("ckin.svg-g02cfx#ckin")/*tpa=ckin.svg?g02cfx#ckin*/ format("svg");
   font-weight: normal;
   font-style: normal;
 }
