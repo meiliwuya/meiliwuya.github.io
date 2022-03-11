@@ -1,0 +1,43 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="referrer" content="never"/>
+<title>
+    KIMI
+</title>
+<div id="playervideo" class="portfolio-slideshow flexslider animate-onscroll">
+    <center>
+        <video id="example_video_1" class="video-js vjs-default-skin" controls="" preload="none" poster="https://ae01.alicdn.com/kf/Hf8474cba38e0482e9b79a1756f887859y.jpg" data-setup="{}" width="95%">
+            <source src="a.mp4" type="video/mp4"/>
+        </video>
+    </center><script language="javascript">var vList = [
+                'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646991414619-gqcwchh5kx.mp4?ver=160-pro',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646990011590-fcefc8fksvk.mp4?ver=160-pro',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646990105869-fw93zs8av8.mp4?ver=160-pro',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646990236580-q4qo4c9u54j.mp4?ver=160-pro',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646990308077-5u0u1ll1mj3.mp4?ver=160-pro',
+				'http://video-1251586368.file.myqcloud.com/tencent/8e1642231d744b6bba4fcdae15775565/1646990365143-5jcqc5k4y2.mp4?ver=160-pro'
+			]; // 初始化播放列表   
+                        var vLen = vList.length; // 播放列表的长度   
+                        var curr = 0; // 当前播放的视频   
+                           
+                        var video = document.getElementById("example_video_1");   
+                           
+                        /*var video = document.createElement("VIDEO");  
+                        video.setAttribute("width", "100%");  
+                        video.setAttribute("height", "500");  
+                        video.setAttribute("id", "exaample_video_1");  
+                        video.setAttribute("class", "video-js vjs-default-skin");  
+                        video.setAttribute("preload", "none");  
+                        video.setAttribute("poster", "video//demo.jpg");  
+                        video.setAttribute("data-setup", "{}");  
+                        video.setAttribute("controls", "yes");  
+                        document.getElementById("playervideo").appendChild(video);*/   
+                        //document.body.appendChild(video);   
+   
+                        video.addEventListener('ended', play);   
+                        play();   
+                        function play(e) {   
+                            video.src = vList[curr];   
+                            video.load();    
+                            video.play();   
+                            curr++;   
+                        }</script><!-- /Video player -->
