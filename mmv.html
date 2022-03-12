@@ -58,7 +58,10 @@
                             video.src = vList[curr];   
                             video.load();    
                             video.play();   
-                            curr++;   
+                            curr++; 
+			    if(curr >= vLen){   
+                            curr = 0; // 播放完了，重新播放   
+                            }	
                         }</script>   
     <script src="v-ckin.js" tppabs=""></script>
 	<br><br>
