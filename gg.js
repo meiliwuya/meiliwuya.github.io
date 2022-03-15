@@ -1,3 +1,3 @@
 document.writeln("<center>");
-document.writeln("<a href=\"http://www.meiliwuya.com/?cate=1\" target=\"_blank\"><img class=\"ue-image\" src=\"https://ae01.alicdn.com/kf/H924667bb6973466b86dc6b8fa23c019c2.gif\" width=\"250\" height=\"80\"/></a>");
+document.writeln("<a href=\"http://www.meiliwuya.com/?cate=1\" target=\"_blank\"><img class=\"ue-image\" src=\"http://meiliwuya.com/gg/001.gif\" width=\"250\" height=\"80\"/></a>");
 document.writeln("</center>");
