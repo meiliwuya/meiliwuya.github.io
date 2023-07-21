@@ -1,3 +1,6 @@
+vless://04b21e1f-387d-4f63-8c7b-d10224ef81e2@8.219.170.223:443?encryption=none&security=tls&sni=papala2.pages.dev&type=ws&host=papala2.pages.dev&path=%2f%3fed%3d2048#papala2.pages.dev
+vless://04b21e1f-387d-4f63-8c7b-d10224ef81e2@129.154.210.82:443?encryption=none&security=tls&sni=papala2.pages.dev&type=ws&host=papala2.pages.dev&path=%2f%3fed%3d2048#papala2.pages.dev-clone
+
 vless://3aff452d-511f-415d-97d1-133b4618711f@45.64.23.25:443?encryption=none&security=tls&sni=1238.papala.eu.org&type=ws&host=1238.papala.eu.org&path=%2f%3fed%3d2048#*HK-1
 vless://3aff452d-511f-415d-97d1-133b4618711f@103.118.40.26:443?encryption=none&security=tls&sni=1238.papala.eu.org&type=ws&host=1238.papala.eu.org&path=%2f%3fed%3d2048#*HK-2
 vless://3aff452d-511f-415d-97d1-133b4618711f@43.198.131.99:443?encryption=none&security=tls&sni=1238.papala.eu.org&type=ws&host=1238.papala.eu.org&path=%2f%3fed%3d2048#*HK-3
